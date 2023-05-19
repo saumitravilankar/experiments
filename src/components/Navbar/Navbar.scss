@@ -1,0 +1,52 @@
+.iconbox{
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: auto;
+    background-color: black;
+    min-height: 100vh;
+    width: 5%;
+    overflow-x: hidden;
+    z-index: 2;
+    
+    .icon{
+        padding: 10px 20px;
+        cursor: pointer;
+        
+        .icon-dash{
+            padding: 0.01rem;
+            background-color: white;
+            margin: 0.7rem 0;
+        }
+    }
+}
+
+.nav-menu{
+    position: absolute;
+    top: 0;
+    right: 10vw;
+    left: auto;
+    bottom: 0;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+
+    .nav-items{
+        color: white;
+        width: 30vw;
+        height: 80vh;
+        text-align: center;
+        padding-top: 25%;
+
+        .nav-item{
+            font-size: 40px;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 0.2rem;
+            margin: 10px 0;
+            cursor: pointer;
+        }
+    }
+}

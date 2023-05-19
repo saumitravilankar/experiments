@@ -1,14 +1,15 @@
 import './App.css';
-import Carousel from './components/Carousel';
-import OwlCarousel from './components/OwlCarousel';
+import Navbar from './components/Navbar/Navbar';
+// import Carousel from './components/Carousel';
 
 function App() {
   return (
     <>
-      {/* <Carousel /> */}
-      <OwlCarousel />
+    <Navbar />
     </>
   );
 }
 
 export default App;
+
+
